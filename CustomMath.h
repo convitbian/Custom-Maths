@@ -9,7 +9,7 @@ using namespace std;
 const float pi = 3.1415926535897932385;
 const float ln10 = 2.30258509299;
 
-// most of the functions are based on Taylor's Series for higher speed but lower accuracy
+// most of trig functions are based on Taylor's Series for higher speed but lower accuracy
 int c_factor(int x);
 float c_sqrt(float number);  // based on Quake III's inverse square root code
 float c_arctan(float x, float y);  // return value -90 <= x <= 90
